@@ -48,6 +48,12 @@ public class compressor
         // char second_letter;
         Regex regex = new Regex(@"\d+");
         MatchCollection matches = regex.Matches(st);
+
+        if (matches.Count < 1)
+        {
+            Console.WriteLine("Строка не сжата!!!!");
+            return st;
+        }
         
         for (int i = 0; i < matches.Count; i++)
         {
