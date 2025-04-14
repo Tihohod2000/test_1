@@ -6,11 +6,14 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine(Server.GetCount());
         Server.AddCount(15);
-        Thread.Sleep(5000);
+        Console.WriteLine(Server.GetCount());
+        Thread.Sleep(3000);
         Server.AddCount(10);
-        
-        
+        Thread.Sleep(3000);
+
+
         Console.WriteLine(Server.GetCount());
         
         
