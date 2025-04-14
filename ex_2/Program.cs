@@ -19,6 +19,7 @@ class Program
         
         
         Server.WaitForWritesComplete();
-        Console.WriteLine("All writes completed");
+        Console.WriteLine("Записи завершены. Для окончания работы нажмите Enter");
+        Console.ReadLine();
     }
 }

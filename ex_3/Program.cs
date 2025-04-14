@@ -13,13 +13,16 @@ foreach (string line in lines)
     }
     else
     {
-        Console.WriteLine("Ошибка!!!");
+        Console.WriteLine("Ошибка структуры лога!!! \nЛог записан в файл problems.txt");
         using (StreamWriter writer = new StreamWriter(filePath, append: true))
         {
             writer.WriteLine(line);
         }
     }
 }
+
+Console.WriteLine("Все логи обработаны. Для окончания работы нажмите Enter");
+Console.ReadLine();
 
 
 bool TryParseLogLine(string line, out InfoObj entry)

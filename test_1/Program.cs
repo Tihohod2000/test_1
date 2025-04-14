@@ -30,6 +30,9 @@ else
     Console.WriteLine("Error");
 }
 
+Console.WriteLine("Для окончания работы нажмите Enter");
+Console.ReadLine();
+
 // string short_st = comm.compression("aaabbcccdde");
 // string full_st = comm.decompression("a3b2c3d2e");
 // Console.WriteLine($"компрессия строки: {short_st}");
