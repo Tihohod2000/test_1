@@ -3,7 +3,7 @@
 # Задание 1
 Компрессия и декомпрессия строки
 
-решение находится в папке test_1
+Решение находится в папке test_1
 
 ![image](https://github.com/user-attachments/assets/bd207b49-cb81-4497-8b14-38f2b804ea32)
 
@@ -30,7 +30,7 @@
 
 •	пока писатели добавляют и пишут, читатели должны ждать окончания записи.
 
-решение находится в папке ex_2
+Решение находится в папке ex_2
 
 Реализация блокировки ресурса происходит через ```private static readonly ReaderWriterLockSlim _lock = new ReaderWriterLockSlim();``` 
 
@@ -77,6 +77,8 @@
 
 ```2025-03-10	15:14:51.5882	INFO	MobileComputer.GetDeviceId	Код устройства: '@MINDEO-M40-D-410244015546'```
 
+решение находится в папке ex_3
+
 Пример вывода программы:
 ![image](https://github.com/user-attachments/assets/694da3d0-f5b8-411d-b7cf-3d9ef0ae0443)
 
@@ -84,7 +86,6 @@
 ```string[] lines = File.ReadAllLines("../../../file.txt");```
 
 ![image](https://github.com/user-attachments/assets/3c075d1a-5094-4617-998c-af78905d3024)
-
 
 В случае, если входная запись оказывается невалидной, необходимо ее записывать в другой выходной файл с названием problems.txt. Формат записи исходный.
 
