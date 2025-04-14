@@ -8,10 +8,11 @@ class Program
     {
         Console.WriteLine(Server.GetCount());
         Server.AddCount(15);
+        // Thread.Sleep(500);
         Console.WriteLine(Server.GetCount());
-        Thread.Sleep(3000);
+        // Thread.Sleep(500);
         Server.AddCount(10);
-        Thread.Sleep(3000);
+        // Thread.Sleep(500);
 
 
         Console.WriteLine(Server.GetCount());

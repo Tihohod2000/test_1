@@ -72,7 +72,9 @@ public class InfoObj
    public override string ToString()
    {
       string _time = $"{_data:HH:mm:ss.ffffff}".TrimEnd('0');
-      return $"{_data:dd.MM.yyyy}  {_time}  {LogLevel}  {_method}   {_message}";
+      return $"{_data:dd.MM.yyyy}  {_time}  {LogLevel}  {_method}  {_message}";
    }
+   
+   
 
 }
